@@ -1,4 +1,4 @@
-# artlimited.net
+# artlimited.net by user
 * URL format: `https://www.artlimited.net/user/{user id parts}/{some kind of id}/{image file name}.webp`
 * Block at no less than `https://www.artlimited.net/user/{user id parts}/`
 * Make sure other users aren't accidently included (append regex `[AEIMQUYcgk][^v]`, which is 2 characters)
