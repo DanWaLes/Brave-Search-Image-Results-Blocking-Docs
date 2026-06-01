@@ -1,6 +1,9 @@
 # Deviant Art
 Block at no less than `https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/{user id}/`
 
+Eg:
+1) Raw
+
 ## Raw URL format data
 ### aismart
 `https://www.deviantart.com/aismart/gallery`
