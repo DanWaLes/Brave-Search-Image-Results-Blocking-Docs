@@ -1,5 +1,5 @@
 # Deviant Art raw image URL syntax data
-Follows syntax `https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/{user id}/`
+Block at no less than: `https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/{user id}/`
 
 ## aismart
 https://www.deviantart.com/aismart/gallery
