@@ -12,5 +12,5 @@ function encodedToRule(str) {
 	str = str.replace(/.{16}/g, '$&/');
 
 	// add the rule
-	return `search.brave.com##.image-result:has(img[src^="https://imgs.search.brave.com"][src*="/${str}"])`;
+	return `search.brave.com##.image-result:has(img[src*="/${str}"])`;
 }
