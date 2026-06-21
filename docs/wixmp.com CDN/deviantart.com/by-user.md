@@ -17,7 +17,7 @@ Eg:
 6) Encoded: `aHR0cHM6Ly9pbWFnZXMtd2l4bXAtZWQzMGE4NmI4YzRjYTg4Nzc3MzU5NGMyLndpeG1wLmNvbS9mLzIzNDc2MGU3LTI4YjctNDc0Ni1iMDFlLWNhOWZiY2Y4NjYzNy9h`
 7) Remove final character: `aHR0cHM6Ly9pbWFnZXMtd2l4bXAtZWQzMGE4NmI4YzRjYTg4Nzc3MzU5NGMyLndpeG1wLmNvbS9mLzIzNDc2MGU3LTI4YjctNDc0Ni1iMDFlLWNhOWZiY2Y4NjYzNy9`
 8) Insert slashes every 16 characters: `aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9mLzIz/NDc2MGU3LTI4Yjct/NDc0Ni1iMDFlLWNh/OWZiY2Y4NjYzNy9`
-9) Add the rule: `search.brave.com##.image-result:has(img[src^="https://imgs.search.brave.com"][src*="/aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9mLzIz/NDc2MGU3LTI4Yjct/NDc0Ni1iMDFlLWNh/OWZiY2Y4NjYzNy9"])`
+9) Add the rule: `search.brave.com##.image-result:has(img[src*="/aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9mLzIz/NDc2MGU3LTI4Yjct/NDc0Ni1iMDFlLWNh/OWZiY2Y4NjYzNy9"])`
 
 ## Raw URL format data
 ### aismart
