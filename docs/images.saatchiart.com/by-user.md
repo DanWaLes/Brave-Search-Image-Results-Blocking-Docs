@@ -17,4 +17,4 @@ Note: the `/a` is needed to make sure the `/` after `{author id}` is included wh
 6. Encoded: `aHR0cHM6Ly9pbWFnZXMuc2FhdGNoaWFydC5jb20vc2FhdGNoaS8xNjk0NTk2L2E`
 7. Remove final character: `aHR0cHM6Ly9pbWFnZXMuc2FhdGNoaWFydC5jb20vc2FhdGNoaS8xNjk0NTk2L2`
 8. Insert slashes every 16 characters: `aHR0cHM6Ly9pbWFn/ZXMuc2FhdGNoaWFy/dC5jb20vc2FhdGNo/aS8xNjk0NTk2L2`
-9. Add the rule: `search.brave.com##.image-result:has(img[src^="https://imgs.search.brave.com"][src*="/aHR0cHM6Ly9pbWFn/ZXMuc2FhdGNoaWFy/dC5jb20vc2FhdGNo/aS8xNjk0NTk2L2"])`
+9. Add the rule: `search.brave.com##.image-result:has(img[src*="/aHR0cHM6Ly9pbWFn/ZXMuc2FhdGNoaWFy/dC5jb20vc2FhdGNo/aS8xNjk0NTk2L2"])`
